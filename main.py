@@ -20,7 +20,7 @@ if __name__ == '__main__':
     saved = False
     # getopt
     try:
-        opts, args = getopt.getopt(sys.argv[1:], "hsn:N:o:p:q:", ["help", "save", "ngrid=", "MAXITER=", "output=", "p=", "q="])
+        opts, args = getopt.getopt(sys.argv[1:], "hsn:N:o:t:p:q:", ["help", "save", "ngrid=", "MAXITER=", "output=", "t0=", "p=", "q="])
     except getopt.GetoptError as err:
         print(err)
         sys.exit(2)
@@ -35,6 +35,7 @@ if __name__ == '__main__':
                     * -n, --ngrid: size of the grid (default: 100)
                     * -I, --MAXITER: number of iterations (default: 10)
                     * -o, --output: TeX output (default: 0)
+                    * -t, --t0: initial rate of the system (default: 1e-4)
                     * -p, --p: probability of starting if no neighbors are active (default: 1e-4)
                     * -q, --q: probability of continuing if no neighbors are active (default: 0.4)
                 """
@@ -47,6 +48,8 @@ if __name__ == '__main__':
         elif opt in ("-o", "--output"):
             plt.rcParams.update({"text.usetex": True, "font.family": "serif"})
             texified = bool(int(arg))
+        elif opt in ("-t", "--t0"):
+            tau0 = float(arg)
         elif opt in ("-p", "--p"):
             p = float(arg)
         elif opt in ("-q", "--q"):
