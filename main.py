@@ -6,11 +6,11 @@ from sim import *
 
 if __name__ == '__main__':
     # Constants
-    N = 100
-    MAX_ITER = 10
+    N = 200
+    MAX_ITER = 180
     # Initial rate of the system
-    tau0 = 1e-4
-    p = 1e-4 # proba of starting if no neighbors are active
+    tau0 = 0.1
+    p = 1e-5 # proba of starting if no neighbors are active
     q = 0.4 # proba of continuing if no neighbors are active
 
     # time step in milliseconds
@@ -32,12 +32,12 @@ if __name__ == '__main__':
                 Options:
                     * -h, --help: display this help and exit
                     * -s, --save: save the animation as a mp4 file
-                    * -n, --ngrid: size of the grid (default: 100)
-                    * -I, --MAXITER: number of iterations (default: 10)
-                    * -o, --output: TeX output (default: 0)
-                    * -t, --t0: initial rate of the system (default: 1e-4)
-                    * -p, --p: probability of starting if no neighbors are active (default: 1e-4)
-                    * -q, --q: probability of continuing if no neighbors are active (default: 0.4)
+                    * -n, --ngrid: size of the grid
+                    * -I, --MAXITER: number of iterations
+                    * -o, --output: TeX output
+                    * -t, --t0: initial rate of the system
+                    * -p, --p: probability of starting if no neighbors are active
+                    * -q, --q: probability of continuing if no neighbors are active
                 """
             )
             sys.exit()
