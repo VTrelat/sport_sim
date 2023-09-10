@@ -43,9 +43,9 @@ Formellement, on définit la relation d'amitié $\leftrightarrow_f$ par :
 
 -   On n'est pas ami avec soi-même : $\forall A \quad \neg (A \leftrightarrow_f A)$
 -   Symétrie : $\forall A \forall B \quad A \leftrightarrow_f B \Longrightarrow B \leftrightarrow_f A$
--   On ne peut pas être ami avec plus de 8 personnes : $\forall A \quad |[\![A]\!]_{\leftrightarrow_f}| = 8$
+-   On ne peut pas être ami avec plus de 8 personnes : $\forall A \quad |[A]_{\leftrightarrow_f}| = 8$
 
-> **Remarque :** $[\![A]\!]_{\leftrightarrow_f}$ désigne la classe (:warning: pas classe d'équivalence !) de $A$ pour la relation $\leftrightarrow_f$, i.e. l'ensemble des personnes amies avec $A$.
+> **Remarque :** $[A]_{\leftrightarrow_f}$ désigne la classe (:warning: pas classe d'équivalence !) de $A$ pour la relation $\leftrightarrow_f$, i.e. l'ensemble des personnes amies avec $A$.
 
 On définit inductivement la relation généralisant le terme "ami d'ordre $n$" $\leftrightarrow_{f}^n$ par :
 
