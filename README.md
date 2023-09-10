@@ -60,7 +60,7 @@ On note $\leftrightarrow_f^*$ la fermerture transitive de $\leftrightarrow_f$.
 
 On peut donc représenter la relation d'amitié par un graphe non orienté dont les sommets sont les personnes et les arêtes sont les relations d'amitié. Pour simplifier encore, on représente un sommet par un carré et on place les sommets en relation d'amitié côte à côte. Pour une personne donnée, on obtient donc un tableau de carrés de taille $3 \times 3$ si on représente les amis d'ordre 1, $5 \times 5$ si on représente les amis d'ordre 2, $7 \times 7$ si on représente les amis d'ordre 3, etc.
 
-<style>
+<!-- <style>
 * {
   box-sizing: border-box;
 }
@@ -69,7 +69,7 @@ On peut donc représenter la relation d'amitié par un graphe non orienté dont 
   margin-left:-5px;
   margin-right:-5px;
 }
-  
+
 .column {
   float: left;
   width: 33%;
@@ -216,7 +216,9 @@ tr {
   </tr>
 </table>
 </div>
-</div>
+</div> -->
+
+![](img1.png)
 
 Soient $\tau_0$ la proportion initiale de pratiquants du sport étudié, $p$ la probabilité qu'une personne commence à pratiquer le sport étudié de son propre chef (i.e. si aucun de ses amis ne le pratique) et $q$ la probabilité qu'une personne continue à pratiquer le sport étudié de son propre chef (i.e. si aucun de ses amis ne le pratique).
 
