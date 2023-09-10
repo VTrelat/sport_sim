@@ -54,8 +54,8 @@ On définit inductivement la relation généralisant le terme "ami d'ordre $n$" 
 
 On note $\leftrightarrow_f^*$ la fermerture transitive de $\leftrightarrow_f$.
 
-**Remarque :** Pour une relation $\sim$, on définit la fermeture transitive par :
-$$\sim^{*} \equiv \bigcup_{n \in \mathbb{N}} \sim^n$$
+> **Remarque :** Pour une relation $\sim$, on définit la fermeture transitive par :
+> $$\sim^{*} \equiv \bigcup_{n \in \mathbb{N}} \sim^n$$
 
 > **Remarque :** Dans notre cas, $\leftrightarrow_f^*$ désigne toute la population.
 
