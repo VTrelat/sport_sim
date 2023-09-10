@@ -240,6 +240,6 @@ Pour une personne $X$ donnée, la probabilité $P_X$ de commencer le sport est d
 
 $$P_X = \sum_{n=0}^{\infty} f_p^n(|[X]_{\leftrightarrow_f^n}|)$$
 
-> **Remarque :** Les fonctions $f_p^n$ doivent être de telle sorte que $P_X \in [0,1]$ ! Il faut donc déjà que la série converge et il suffit que $\sum_{n=0}^{\infty} f_p^n(8n) \leq 1$ dans le cas où on se limite à 8 amis.
+> **Remarque :** Les fonctions $f_p^n$ doivent être de telle sorte que $P_X \in [0,1]$ ! Il faut donc déjà que la série converge et il suffit que $\displaystyle\sum_{n=0}^{\infty} f_p^n(8n) \leq 1$ dans le cas où on se limite à 8 amis.
 
 > **Remarque :** On peut considérer que $f_p^n$ est nulle pour $n$ assez grand, sauf si $X$ est ami avec un champion sportif.
